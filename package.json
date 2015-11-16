@@ -1,9 +1,9 @@
 {
   "name": "adb-explorer",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "ADB explorer with electorn and web components",
   "main": "main.js",
-  "author": "",
+  "author": "Darko Kukovec <darko@kukovec.eu>",
   "license": "MIT",
   "dependencies": {
     "adbkit": "^2.3.1",
