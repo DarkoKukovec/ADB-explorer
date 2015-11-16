@@ -1,0 +1,15 @@
+$base-blue-color: #4847BA; /*#3f51b5*/
+$base-white-color: #FFFFFF;
+$base-black-color: #000000;
+$base-gray-color: #999999;
+
+$primary-text-color: $base-black-color;
+$primary-background-color: $base-white-color;
+
+$secondary-text-color: $base-white-color;
+$secondary-background-color: $base-blue-color;
+
+$color-border: $base-gray-color;
+$height-toolbar: 100px;
+$width-sidebar: 200px;
+$height-statusbar: 50px;

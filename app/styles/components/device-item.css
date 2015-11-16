@@ -1,0 +1,5 @@
+.device-item {
+  &__name {
+    padding-left: 15px;
+  }
+}

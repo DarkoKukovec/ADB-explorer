@@ -1,0 +1,4 @@
+.main paper-toolbar {
+  background-color: $secondary-background-color;
+  color: $secondary-text-color;
+}

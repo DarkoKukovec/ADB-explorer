@@ -1,0 +1,23 @@
+.main {
+  .main__toolbar {
+    position: absolute 0 0 auto 0;
+    /*height: calc($height-toolbar - 1px);*/
+    /*border-bottom: 1px solid $color-border;*/
+  }
+
+  .main__sidebar {
+    position: absolute $height-toolbar auto $height-statusbar 0;
+    width: calc($width-sidebar - 1px);
+    border-right: 1px solid $color-border;
+  }
+
+  .main__content {
+    position: absolute $height-toolbar 0 $height-statusbar $width-sidebar;
+  }
+
+  .main__statusbar {
+    position: absolute auto 0 0 0;
+    height: calc($height-statusbar - 1px);
+    border-top: 1px solid $color-border;
+  }
+}
